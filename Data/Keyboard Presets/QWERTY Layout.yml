@@ -1,0 +1,669 @@
+name: "QWERTY"
+note: "Basic QWERTY layout."
+
+sub_boards:
+  - name: "Main Board"
+    offset: [0, 0]
+    rotation: 0
+    keys:
+      # Row 1 (Numbers and Symbols)
+      - offset: [0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "`"
+          shift: "~"
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [1.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "1"
+          shift: "!"
+        finger: "left_ring"
+        is_home_row: false
+
+      - offset: [2.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "2"
+          shift: "@"
+        finger: "left_middle"
+        is_home_row: false
+
+      - offset: [3.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "3"
+          shift: "#"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [4.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "4"
+          shift: "$"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [5.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "5"
+          shift: "%"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [6.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "6"
+          shift: "^"
+        finger: "right_index"
+        is_home_row: false
+
+      - offset: [7.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "7"
+          shift: "&"
+        finger: "right_index"
+        is_home_row: false
+
+      - offset: [8.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "8"
+          shift: "*"
+        finger: "right_middle"
+        is_home_row: false
+
+      - offset: [9.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "9"
+          shift: "("
+        finger: "right_ring"
+        is_home_row: false
+
+      - offset: [10.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "0"
+          shift: ")"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [11.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "-"
+          shift: "_"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [12.0, 0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "="
+          shift: "+"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [13.0, 0]
+        rotation: 0
+        width: 2.0 # Backspace is often wider
+        height: 1.0
+        row: 0
+        key_codes:
+          base: "u:8" # Backspace - Unicode 8
+        finger: "right_pinky" # Or right ring, depending on preference
+        is_home_row: false
+
+      # Row 2 (QWERTY Row)
+      - offset: [0, 1.0]
+        rotation: 0
+        width: 1.5 # Tab is often wider
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "u:9" # Tab - Unicode 9
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [1.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "q"
+          shift: "Q"
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [2.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "w"
+          shift: "W"
+        finger: "left_ring"
+        is_home_row: false
+
+      - offset: [3.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "e"
+          shift: "E"
+        finger: "left_middle"
+        is_home_row: true # E is on home row
+
+      - offset: [4.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "r"
+          shift: "R"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [5.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "t"
+          shift: "T"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [6.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "y"
+          shift: "Y"
+        finger: "right_index"
+        is_home_row: false
+
+      - offset: [7.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "u"
+          shift: "U"
+        finger: "right_index"
+        is_home_row: false
+
+      - offset: [8.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "i"
+          shift: "I"
+        finger: "right_middle"
+        is_home_row: true # I is on home row
+
+      - offset: [9.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "o"
+          shift: "O"
+        finger: "right_ring"
+        is_home_row: false
+
+      - offset: [10.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "p"
+          shift: "P"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [11.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "["
+          shift: "{"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [12.5, 1.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "]"
+          shift: "}"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [13.5, 1.0]
+        rotation: 0
+        width: 1.0 # Backslash is often 1u or slightly wider
+        height: 1.0
+        row: 1
+        key_codes:
+          base: "\\"
+          shift: "|"
+        finger: "right_pinky"
+        is_home_row: false
+
+      # Row 3 (ASDF Row - Home Row)
+      - offset: [0, 2.0]
+        rotation: 0
+        width: 1.75 # Caps Lock is often wider
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "u:-9" # Caps Lock - Negative Unicode -9 (example)
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [1.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "a"
+          shift: "A"
+        finger: "left_pinky"
+        is_home_row: true # A is on home row
+
+      - offset: [2.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "s"
+          shift: "S"
+        finger: "left_ring"
+        is_home_row: true # S is on home row
+
+      - offset: [3.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "d"
+          shift: "D"
+        finger: "left_middle"
+        is_home_row: true # D is on home row
+
+      - offset: [4.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "f"
+          shift: "F"
+        finger: "left_index"
+        is_home_row: true # F is on home row
+
+      - offset: [5.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "g"
+          shift: "G"
+        finger: "left_index" # or right_index depending on split
+        is_home_row: false
+
+      - offset: [6.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "h"
+          shift: "H"
+        finger: "right_index" # or left_index depending on split
+        is_home_row: false
+
+      - offset: [7.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "j"
+          shift: "J"
+        finger: "right_index"
+        is_home_row: true # J is on home row
+
+      - offset: [8.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "k"
+          shift: "K"
+        finger: "right_middle"
+        is_home_row: true # K is on home row
+
+      - offset: [9.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "l"
+          shift: "L"
+        finger: "right_ring"
+        is_home_row: true # L is on home row
+
+      - offset: [10.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: ";"
+          shift: ":"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [11.75, 2.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "'"
+          shift: "\""
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [12.75, 2.0]
+        rotation: 0
+        width: 2.25 # Enter is often wider
+        height: 1.0
+        row: 2
+        key_codes:
+          base: "u:13" # Enter - Unicode 13
+        finger: "right_pinky" # or right ring
+        is_home_row: false
+
+      # Row 4 (ZXCV Row)
+      - offset: [0, 3.0]
+        rotation: 0
+        width: 2.25 # Left Shift is often wider
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "u:-1" # LShift - Negative Unicode -1 (example)
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [2.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "z"
+          shift: "Z"
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [3.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "x"
+          shift: "X"
+        finger: "left_ring"
+        is_home_row: false
+
+      - offset: [4.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "c"
+          shift: "C"
+        finger: "left_middle"
+        is_home_row: false
+
+      - offset: [5.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "v"
+          shift: "V"
+        finger: "left_index"
+        is_home_row: false
+
+      - offset: [6.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "b"
+          shift: "B"
+        finger: "left_index" # or right_index depending on split
+        is_home_row: false
+
+      - offset: [7.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "n"
+          shift: "N"
+        finger: "right_index" # or left_index depending on split
+        is_home_row: false
+
+      - offset: [8.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "m"
+          shift: "M"
+        finger: "right_index"
+        is_home_row: false
+
+      - offset: [9.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: ","
+          shift: "<"
+        finger: "right_middle"
+        is_home_row: false
+
+      - offset: [10.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "."
+          shift: ">"
+        finger: "right_ring"
+        is_home_row: false
+
+      - offset: [11.25, 3.0]
+        rotation: 0
+        width: 1.0
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "/"
+          shift: "?"
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [12.25, 3.0]
+        rotation: 0
+        width: 2.75 # Right Shift is often wider
+        height: 1.0
+        row: 3
+        key_codes:
+          base: "u:-2" # RShift - Negative Unicode -2 (example)
+        finger: "right_pinky"
+        is_home_row: false
+
+      # Row 5 (Bottom Row - Modifiers and Spacebar)
+      - offset: [0, 4.0]
+        rotation: 0
+        width: 1.25 # Ctrl is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-3" # LCtrl - Negative Unicode -3 (example)
+        finger: "left_pinky"
+        is_home_row: false
+
+      - offset: [1.25, 4.0]
+        rotation: 0
+        width: 1.25 # Win/GUI key is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-7" # Win - Negative Unicode -7 (example)
+        finger: "left_pinky" # or left ring
+        is_home_row: false
+
+      - offset: [2.5, 4.0]
+        rotation: 0
+        width: 1.25 # Alt is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-5" # LAlt - Negative Unicode -5 (example)
+        finger: "left_thumb"
+        is_home_row: false
+
+      - offset: [3.75, 4.0]
+        rotation: 0
+        width: 6.25 # Spacebar is much wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:32" # Space - Unicode 32
+        finger: "left_thumb" # or right_thumb
+        is_home_row: false
+
+      - offset: [10.0, 4.0]
+        rotation: 0
+        width: 1.25 # AltGr is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-6" # RAlt (AltGr) - Negative Unicode -6 (example)
+        finger: "right_thumb"
+        is_home_row: false
+
+      - offset: [11.25, 4.0]
+        rotation: 0
+        width: 1.25 # Win/GUI key is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-7" # Win (Right side) - Negative Unicode -7 (example) - Could differentiate if needed
+        finger: "right_pinky" # or right ring
+        is_home_row: false
+
+      - offset: [12.5, 4.0]
+        rotation: 0
+        width: 1.25 # Context Menu/R-Click key is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-8" # R-Clk - Negative Unicode -8 (example)
+        finger: "right_pinky"
+        is_home_row: false
+
+      - offset: [13.75, 4.0]
+        rotation: 0
+        width: 1.25 # Ctrl is often wider
+        height: 1.0
+        row: 4
+        key_codes:
+          base: "u:-4" # RCtrl - Negative Unicode -4 (example)
+        finger: "right_pinky"
+        is_home_row: false
